@@ -12,7 +12,7 @@ from evaluate.tester import Tester
 
 
 # Hyper-params
-coco_root = '/data/COCO/'
+coco_root = './data/COCO/'
 backbone='resnet101'  # 'resnet50'
 inp_size = 480  # input size 480*480
 feat_stride = 4

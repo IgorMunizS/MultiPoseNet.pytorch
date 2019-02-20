@@ -9,7 +9,7 @@ from datasets.coco import get_loader
 from evaluate.tester import Tester
 
 # Hyper-params
-coco_root = '/data/COCO/'
+coco_root = './data/COCO/'
 backbone = 'resnet101'  # 'resnet50'
 data_dir = coco_root+'images/'
 mask_dir = coco_root
