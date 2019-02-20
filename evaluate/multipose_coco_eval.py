@@ -14,7 +14,7 @@ params.subnet_name = 'both'
 params.inp_size = 480  # input picture size = (inp_size, inp_size)
 params.coeff = 2
 params.in_thres = 0.21
-params.coco_root = '/data/COCO/'
+params.coco_root = './data/COCO/'
 params.testresult_write_json = False  # Whether to write json result
 params.coco_result_filename = './demo/multipose_coco2017_results.json'
 params.ckpt = './demo/models/ckpt_baseline_resnet101.h5'
